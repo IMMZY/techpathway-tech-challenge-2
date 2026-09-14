@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+
+# Build output
+/frontend/build/
+/backend/dist/
+
+# Terraform
+**/.terraform/
+**/terraform.tfstate
+**/terraform.tfstate.*
+**/*.tfplan
+**/crash.log
+**/crash.*.log
+**/terraform.tfvars
+!**/terraform.tfvars.example
+
+# Secrets / credentials
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*credentials*
+
+# OS / editor
+.DS_Store
+*.log
+npm-debug.log*
+.vscode/
+.idea/
+
+# Test coverage
+coverage/
